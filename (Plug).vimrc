@@ -140,8 +140,8 @@ endif
 "   网址：
 "     https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 "   Mac安装方法：
-"     brew tap caskroom/fonts
-"     brew cask install font-hack-nerd-font
+"     brew tap homebrew/cask-fonts
+"     brew install --cask font-hack-nerd-font
 Plug 'ryanoasis/vim-devicons'
 " 设置字体
 " set guifont=DroidSansMono_Nerd_Font:h11
