@@ -18,6 +18,10 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'maxmellon/vim-jsx-pretty'
 
+" >>>>>>>>>>>> Rust <<<<<<<<<<<<<"
+Plug 'rust-lang/rust.vim'
+let g:rust_clip_command = 'pbcopy'
+let g:rustfmt_autosave = 1
 
 " >>>>>>>>>>>> 括号自动配对 <<<<<<<<<<<<<
 " https://github.com/jiangmiao/auto-pairs.git
@@ -140,8 +144,8 @@ endif
 "   网址：
 "     https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
 "   Mac安装方法：
-"     brew tap homebrew/cask-fonts
-"     brew install --cask font-hack-nerd-font
+"     brew tap caskroom/fonts
+"     brew cask install font-hack-nerd-font
 Plug 'ryanoasis/vim-devicons'
 " 设置字体
 " set guifont=DroidSansMono_Nerd_Font:h11
@@ -274,7 +278,7 @@ set nowritebackup  " only in case you don't want a backup file while editing
 set noundofile     " no undo files
 
 " >>>>>>> 短暂显示括号匹配 <<<<<<<<
-" set showmatch
+set showmatch
 " 匹配时间，单位是十分之一秒
 " set matchtime=10
 " 括号自动匹配添加
