@@ -23,6 +23,9 @@ Plug 'rust-lang/rust.vim'
 let g:rust_clip_command = 'pbcopy'
 let g:rustfmt_autosave = 1
 
+" >>>>>>>>>>>> PlantUml <<<<<<<<<<<<<"
+Plug 'aklt/plantuml-syntax'
+
 " >>>>>>>>>>>> 括号自动配对 <<<<<<<<<<<<<
 " https://github.com/jiangmiao/auto-pairs.git
 Plug 'jiangmiao/auto-pairs'
