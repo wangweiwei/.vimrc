@@ -145,7 +145,9 @@ endif
 "
 " 字体设置相关
 "   网址：
-"     https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts
+"     https://github.com/ryanoasis/nerd-
+s
+"     所在路径：patched-fonts/Hack/Bold/complete/Hack Bold Nerd Font Complete.ttf
 "   Mac安装方法：
 "     brew tap caskroom/fonts
 "     brew cask install font-hack-nerd-font
