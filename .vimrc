@@ -82,7 +82,7 @@ if isdirectory(expand("~/.vim/plugged/nerdtree"))
   " map <C-f> :NERDTreeToggle<CR>
   " map <F2> :NERDTreeToggle<CR>
   map <silent> <C-n> :NERDTreeToggle<CR>
-  " 获得jiaodian
+  " 获得焦点
   " map <silent> <C-n> :NERDTreeFocus<CR>
   " 开启Nerdtree时自动显示Bookmarks
   let NERDTreeShowBookmarks=1 
